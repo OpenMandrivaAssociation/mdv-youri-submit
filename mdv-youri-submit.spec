@@ -1,10 +1,14 @@
 %define rname	youri-submit
 %define name	mdv-%{rname}
 %define version 0.9
-%define svn	20071221
+%define svn	20080208
 %define rel	1
 %define release %mkrel 1.%{svn}.%{rel}
 %define distname %{rname}-%{version}-%{svn}
+
+# DATE=`date +%Y%m%d`
+# svn export svn+ssh://svn.mandriva.com/svn/soft/build_system/youri/submit/trunk youri-submit-0.9-$DATE
+# tar cjf SOURCES/youri-submit-0.9-$DATE.tar.bz2  youri-submit-0.9-$DATE
 
 Name:		%{name}
 Version:	%{version}
