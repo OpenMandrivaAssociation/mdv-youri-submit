@@ -26,6 +26,7 @@ BuildRequires:	perl(Test::Exception)
 BuildArch:	noarch
 Requires:	mdv-youri-core
 Requires:	rpmlint
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 YOURI stands for "Youri Offers an Upload & Repository Infrastucture". It aims
