@@ -1,7 +1,7 @@
 %define rname	youri-submit
 %define name	mdv-%{rname}
 %define version 0.9
-%define svn	20080208
+%define svn	20080212
 %define rel	1
 %define release %mkrel 1.%{svn}.%{rel}
 %define distname %{rname}-%{version}-%{svn}
