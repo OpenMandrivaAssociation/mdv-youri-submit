@@ -1,8 +1,8 @@
 %define rname	youri-submit
 %define name	mdv-%{rname}
 %define version 0.9
-%define svn	20080918
-%define rel	2
+%define svn	20100127
+%define rel	1
 %define release %mkrel 1.%{svn}.%{rel}
 %define distname %{rname}-%{version}-%{svn}
 
@@ -43,7 +43,9 @@ those packages.
 %{__perl} Makefile.PL \
   INSTALLDIRS=vendor \
   INSTALLVENDORSCRIPT=%{_datadir}/%{name}/bin \
-  INSTALLVENDORLIB=%{_datadir}/%{name}/lib
+  INSTALLVENDORLIB=%{_datadir}/%{name}/lib \
+  INSTALLVENDORMAN3DIR=%{_mandir}/man3 \
+  INSTALLVENDORMAN1DIR=%{_mandir}/man1
 %make pure_all
 
 %install
@@ -59,3 +61,5 @@ rm -rf %{buildroot}
 %{_datadir}/%{name}/bin/%{rname}*
 %{_datadir}/%{name}/lib/Youri
 %{_datadir}/%{name}/lib/auto/%{rname}
+%{_mandir}/man1/*
+%{_mandir}/man3/*
