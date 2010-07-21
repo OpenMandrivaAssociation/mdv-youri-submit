@@ -2,7 +2,7 @@
 %define name	mdv-%{rname}
 %define version 0.9
 %define svn	20100401
-%define rel	1
+%define rel	2
 %define release %mkrel 1.%{svn}.%{rel}
 %define distname %{rname}-%{version}-%{svn}
 
