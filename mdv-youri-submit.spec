@@ -17,7 +17,7 @@ Summary:	Youri submit tool
 License:	GPL or Artistic
 Group:		Development/Other
 Source:		%{distname}.tar.bz2
-Url:		http://youri.zarb.org
+Url:		https://youri.zarb.org
 BuildRequires:	perl(Youri::Utils)
 BuildRequires:	perl(Youri::Package::RPM::Test)
 BuildRequires:	perl(Youri::Package::RPM::Generator)
