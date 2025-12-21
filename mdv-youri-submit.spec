@@ -18,6 +18,7 @@ License:	GPL or Artistic
 Group:		Development/Other
 Source:		%{distname}.tar.bz2
 Url:		https://youri.zarb.org
+BuildRequires:	make
 BuildRequires:	perl(Youri::Utils)
 BuildRequires:	perl(Youri::Package::RPM::Test)
 BuildRequires:	perl(Youri::Package::RPM::Generator)
