@@ -3,7 +3,7 @@
 %define version 0.9
 %define svn	20100401
 %define rel	2
-%define release %mkrel 1.%{svn}.%{rel}
+%define release 1.%{svn}.%{rel}.1
 %define distname %{rname}-%{version}-%{svn}
 
 # DATE=`date +%Y%m%d`
